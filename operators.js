@@ -11,13 +11,15 @@ let b = 2
 // console.log("a % b = ",a%b)
 // console.log('a++', a++) a++ increases the values of a by 1 after
 // console.log('++b', ++b) ++b increases the values of b by 1 before
-// console.log('b--', b--)
-// console.log('--b', --b)
-// console.log(++a)
-// console.log(a++)
-// console.log(--a)
-// console.log(a--)
+// console.log('b--', b--) b-- decreases the values of b by 1 before
+// console.log('--b', --b) --b decreases the values of b by 1 before
 // console.log(a)
+// console.log(a++)
+// console.log(++a)
+// console.log(a--)
+// console.log(--a)
+// console.log(a)
+// console.log(--a)
 // console.log(a--)
 // console.log(a)
 
