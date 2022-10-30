@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String_Methods</title>
+</head>
+<body>
+    <h2>String_Methods</h2>
+    <script>
+        // A string cannot be changed because String is Immutable
+        let myStr = 'Shaikh_Noman';
+        console.log(myStr)
+        console.log(myStr.length)
+        console.log(myStr.toUpperCase())
+        console.log(myStr.toLowerCase())
+        console.log(myStr.slice(0,6))
+        console.log(myStr.slice(6))
+        console.log(myStr.replace('Shaikh','SHAIKH'))
+
+        // All the Above used methods gives a new string rather than Updating the older one 
+
+        let name = 'Noman'
+        // console.log(name[4])
+
+        // Test: Display the All the words of Strings
+        for (b of name){
+            console.log(b)
+        }
+        let friend = ' a very good friend circle '
+        let text = '            myText         '
+        console.log(name.concat(' has', friend))
+        console.log(text.trim())
+        console.log(text.length)
+    </script>
+</body>
+</html>

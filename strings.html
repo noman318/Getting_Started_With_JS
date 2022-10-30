@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strings Practice</title>
+</head>
+<body>
+    <h2>Strings</h2>
+    <script>
+        let name = 'Noman'
+        // we acn write a string using single qoute 'hsjdbjbs' and double qoute "njbsjbhgbmnb"        
+        console.log(name)
+        console.log(name.length)
+        console.log(name[0])
+        console.log(name[1])
+        console.log(name[2])
+        console.log(name[3])
+        console.log(name[4])
+
+        // Template Literals is a special kind of String used in ES6 (Modern Js)
+        let temp = "Shaikh"
+        console.log(`${name}_${temp}`)
+
+        // All these escape sequence works with Double Qoutes also with same Syntax
+
+        // Escape sequence characters
+        let fruit = 'Bana\'na'
+
+        // \n for new Line
+        let frt = 'Banaaa\nna'
+
+        // \t for a Tab Space
+        let frit_tab = 'Banaaa\tnna'
+
+        // Find the position where a carriage return character is found:
+        let naam = '\rBlack Adam'
+        // let pattern = '\r'
+        let result = naam.search('\r');
+
+
+        console.log(fruit)
+        console.log(fruit.length)
+
+        console.log(frt)
+        console.log(frt.length)
+        
+        console.log(frit_tab)
+        console.log(frit_tab.length)
+
+        console.log(naam)
+        console.log(naam.length)
+        console.log(result)
+
+    </script>
+</body>
+</html>
