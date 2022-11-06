@@ -4,7 +4,9 @@ let num = [9,6,8,7,4]
 // }
 
 // ForEach loops noramlly used for Arrays
-num.forEach((ele)=>{
+// ForEach is used when we have to perform an operastion on an element
+num.forEach((ele, ind, arr)=>{
+    console.log(ele*ele, ind, arr)
     // console.log(ele*ele)
 })
 
