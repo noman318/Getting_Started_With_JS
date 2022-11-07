@@ -19,15 +19,15 @@
         let userGuess = prompt("Guess a number Between 1 to 100")
 
         if (randomNumber==userGuess){
-        console.log("\nHurray!Your Answer is right." +"\n\nWrong Guesses: " + arr.length)
-        console.log("\nYou scored: "+ (100-arr.length)+ " out of 100" )  
+        console.log("Hurray!Your Answer is right." +"Wrong Guesses: " + arr.length)
+        console.log("You scored: "+ (100-arr.length)+ " out of 100" )  
         break;
         }
         else if(randomNumber>userGuess){
-        console.log("\nYour Guess is Wrong! \nHint : The answer is greater than your Guess.\n")
+        console.log("The answer is greater than your Guess.\n")
         }
         else if(randomNumber<userGuess){
-        console.log("\nYour Guess is Wrong! \nHint : The answer is lesser than your Guess.\n")
+        console.log("The answer is lesser than your Guess.\n")
         }
         }while(randomNumber!=userGuess + arr.push(userGuess))
 
