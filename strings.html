@@ -8,6 +8,9 @@
 </head>
 <body>
     <h2>Strings</h2>
+        <h1>The Window Navigator Object</h1>
+<h2>The The geolocation Property</h2>
+<p id="demo"></p>
     <script>
         let name = 'Noman'
         // we acn write a string using single qoute 'hsjdbjbs' and double qoute "njbsjbhgbmnb"        
@@ -52,7 +55,20 @@
         console.log(naam)
         console.log(naam.length)
         console.log(result)
+        if (navigator.geolocation) {
+          navigator.geolocation.getCurrentPosition(showPosition);
+        } else { 
+          document.getElementById("demo").innerHTML =
+          "Geolocation is not supported by this browser.";
+        }
+        
+        function showPosition(position) {
+          document.getElementById("demo").innerHTML =
+          "Latitude: " + position.coords.latitude + "<br>" +
+          "Longitude: " + position.coords.longitude;
+        }
 
     </script>
+
 </body>
 </html>
