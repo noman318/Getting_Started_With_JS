@@ -1,0 +1,13 @@
+console.log('Dom_manipulation')
+const id1 = document.getElementById('id1')
+const span1 = document.getElementById('span1')
+console.log(id1)
+console.log(id1.matches('.class'))
+console.log(id1.matches('.box'))
+
+// const span = document.getElementById('span1')
+console.log(span1.closest('.box'))
+console.log(span1.closest('#span1'))
+console.log(id1.contains(span1))
+console.log(span1.contains(span1))
+console.log(span1.contains(id1))
