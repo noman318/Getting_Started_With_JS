@@ -1,0 +1,15 @@
+html ,body{
+    background-color: aquamarine;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    background-color: navy;
+}
+nav li{
+    list-style: none;
+    padding: 10px;
+    font-size: 1.5rem;
+    color: whitesmoke;
+}
